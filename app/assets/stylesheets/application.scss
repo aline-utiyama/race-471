@@ -11,3 +11,73 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Nunito&display=swap');
+
+.top {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 8px;
+
+   h1 {
+  text-align: center;
+  font-family: 'Goldman', cursive;
+
+  }
+
+  .button {
+    padding: 8px 16px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 35px;
+  }
+}
+
+.form-button {
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.cars-card {
+  position: relative;
+}
+
+.driver {
+  position: absolute;
+  left: 82px;
+  top: 6px;
+}
+
+.car-key {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+}
+
+.hidden-car {
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible;
+}
+
+
+
+.body {
+  font-family: 'Nunito', sans-serif;
+}

@@ -1,0 +1,10 @@
+<div class="container">
+  <h2>Select a car</h2>
+  <%= simple_form_for @car do |f| %>
+    <%= f.input :color, collection: Car::COLORS, include_blank: false %>
+    <%= f.input :driver, collection: Car::DRIVERS, include_blank: false %>
+    <%= f.input :key, collection: Car::KEYS, include_blank: false %>
+    <%= f.submit class: 'form-button' %>
+  <% end %>
+
+</div>

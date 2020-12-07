@@ -1,0 +1,188 @@
+<div class="container title">
+
+</div>
+  <% @cars.each do |car| %>
+    <div >
+      <table class="racer-table">
+      <tr id="player1-race">
+        <td class="hidden-car active">
+          <div class="cars-card">
+            <% if car.color == 'red' %>
+              <%= image_tag "red.png", alt: "alttext", width: '150' %>
+            <% elsif car.color == 'yellow' %>
+              <%= image_tag "yellow.png", alt: "alttext", width: '150' %>
+            <% end %>
+            <div class="driver">
+              <% if car.driver == 'Aline' %>
+                <%= image_tag "aline.png", alt: "alttext", size: '50' %>
+              <% elsif car.driver == 'Liz' %>
+                <%= image_tag "liz.png", alt: "alttext", size: '50' %>
+              <% end %>
+            </div>
+            <h3 class="car-key"><%= car.key.capitalize %></h3>
+          </div>
+        </td>
+        <td class="hidden-car">
+          <div class="cars-card">
+            <% if car.color == 'red' %>
+              <%= image_tag "red.png", alt: "alttext", width: '150' %>
+            <% elsif car.color == 'yellow' %>
+              <%= image_tag "yellow.png", alt: "alttext", width: '150' %>
+            <% end %>
+            <div class="driver">
+              <% if car.driver == 'Aline' %>
+                <%= image_tag "aline.png", alt: "alttext", size: '50' %>
+              <% elsif car.driver == 'Liz' %>
+                <%= image_tag "liz.png", alt: "alttext", size: '50' %>
+              <% end %>
+            </div>
+            <h3 class="car-key"><%= car.key.capitalize %></h3>
+          </div>
+        </td>
+        <td class="hidden-car">
+          <div class="cars-card">
+            <% if car.color == 'red' %>
+              <%= image_tag "red.png", alt: "alttext", width: '150' %>
+            <% elsif car.color == 'yellow' %>
+              <%= image_tag "yellow.png", alt: "alttext", width: '150' %>
+            <% end %>
+            <div class="driver">
+              <% if car.driver == 'Aline' %>
+                <%= image_tag "aline.png", alt: "alttext", size: '50' %>
+              <% elsif car.driver == 'Liz' %>
+                <%= image_tag "liz.png", alt: "alttext", size: '50' %>
+              <% end %>
+            </div>
+            <h3 class="car-key"><%= car.key.capitalize %></h3>
+          </div>
+        </td>
+        <td class="hidden-car">
+          <div class="cars-card">
+            <% if car.color == 'red' %>
+              <%= image_tag "red.png", alt: "alttext", width: '150' %>
+            <% elsif car.color == 'yellow' %>
+              <%= image_tag "yellow.png", alt: "alttext", width: '150' %>
+            <% end %>
+            <div class="driver">
+              <% if car.driver == 'Aline' %>
+                <%= image_tag "aline.png", alt: "alttext", size: '50' %>
+              <% elsif car.driver == 'Liz' %>
+                <%= image_tag "liz.png", alt: "alttext", size: '50' %>
+              <% end %>
+            </div>
+            <h3 class="car-key"><%= car.key.capitalize %></h3>
+          </div>
+        </td>
+        <td class="hidden-car">
+          <div class="cars-card">
+            <% if car.color == 'red' %>
+              <%= image_tag "red.png", alt: "alttext", width: '150' %>
+            <% elsif car.color == 'yellow' %>
+              <%= image_tag "yellow.png", alt: "alttext", width: '150' %>
+            <% end %>
+            <div class="driver">
+              <% if car.driver == 'Aline' %>
+                <%= image_tag "aline.png", alt: "alttext", size: '50' %>
+              <% elsif car.driver == 'Liz' %>
+                <%= image_tag "liz.png", alt: "alttext", size: '50' %>
+              <% end %>
+            </div>
+            <h3 class="car-key"><%= car.key.capitalize %></h3>
+          </div>
+        </td>
+        <td class="hidden-car">
+          <div class="cars-card">
+            <% if car.color == 'red' %>
+              <%= image_tag "red.png", alt: "alttext", width: '150' %>
+            <% elsif car.color == 'yellow' %>
+              <%= image_tag "yellow.png", alt: "alttext", width: '150' %>
+            <% end %>
+            <div class="driver">
+              <% if car.driver == 'Aline' %>
+                <%= image_tag "aline.png", alt: "alttext", size: '50' %>
+              <% elsif car.driver == 'Liz' %>
+                <%= image_tag "liz.png", alt: "alttext", size: '50' %>
+              <% end %>
+            </div>
+            <h3 class="car-key"><%= car.key.capitalize %></h3>
+          </div>
+        </td>
+        <td class="hidden-car">
+          <div class="cars-card">
+            <% if car.color == 'red' %>
+              <%= image_tag "red.png", alt: "alttext", width: '150' %>
+            <% elsif car.color == 'yellow' %>
+              <%= image_tag "yellow.png", alt: "alttext", width: '150' %>
+            <% end %>
+            <div class="driver">
+              <% if car.driver == 'Aline' %>
+                <%= image_tag "aline.png", alt: "alttext", size: '50' %>
+              <% elsif car.driver == 'Liz' %>
+                <%= image_tag "liz.png", alt: "alttext", size: '50' %>
+              <% end %>
+            </div>
+            <h3 class="car-key"><%= car.key.capitalize %></h3>
+          </div>
+        </td>
+        <td class="hidden-car">
+          <div class="cars-card">
+            <% if car.color == 'red' %>
+              <%= image_tag "red.png", alt: "alttext", width: '150' %>
+            <% elsif car.color == 'yellow' %>
+              <%= image_tag "yellow.png", alt: "alttext", width: '150' %>
+            <% end %>
+            <div class="driver">
+              <% if car.driver == 'Aline' %>
+                <%= image_tag "aline.png", alt: "alttext", size: '50' %>
+              <% elsif car.driver == 'Liz' %>
+                <%= image_tag "liz.png", alt: "alttext", size: '50' %>
+              <% end %>
+            </div>
+            <h3 class="car-key"><%= car.key.capitalize %></h3>
+          </div>
+        </td>
+        <td class="hidden-car">
+          <div class="cars-card">
+            <% if car.color == 'red' %>
+              <%= image_tag "red.png", alt: "alttext", width: '150' %>
+            <% elsif car.color == 'yellow' %>
+              <%= image_tag "yellow.png", alt: "alttext", width: '150' %>
+            <% end %>
+            <div class="driver">
+              <% if car.driver == 'Aline' %>
+                <%= image_tag "aline.png", alt: "alttext", size: '50' %>
+              <% elsif car.driver == 'Liz' %>
+                <%= image_tag "liz.png", alt: "alttext", size: '50' %>
+              <% end %>
+            </div>
+            <h3 class="car-key"><%= car.key.capitalize %></h3>
+          </div>
+        </td>
+        <td class="hidden-car">
+          <div class="cars-card">
+            <% if car.color == 'red' %>
+              <%= image_tag "red.png", alt: "alttext", width: '150' %>
+            <% elsif car.color == 'yellow' %>
+              <%= image_tag "yellow.png", alt: "alttext", width: '150' %>
+            <% end %>
+            <div class="driver">
+              <% if car.driver == 'Aline' %>
+                <%= image_tag "aline.png", alt: "alttext", size: '50' %>
+              <% elsif car.driver == 'Liz' %>
+                <%= image_tag "liz.png", alt: "alttext", size: '50' %>
+              <% end %>
+            </div>
+            <h3 class="car-key"><%= car.key.capitalize %></h3>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <hr>
+
+      <br>
+    </div>
+  <% end %>
+
+
+
+    <script src="main.js"></script>
